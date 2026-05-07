@@ -42,7 +42,7 @@ The project processes **80 realistic Indian borrower profiles** and provides a t
 
 ## Live Dashboard
 
-🔗 **Live Dashboard Link**: [Click Here]([https://your-link.streamlit.app](https://credit-risk-scorecard-model-ckco4tzvlej67dm3byuqg7.streamlit.app/))  
+🔗 **Live Dashboard Link**: [Click Here](https://credit-risk-scorecard-model-ckco4tzvlej67dm3byuqg7.streamlit.app/)) 
 *(Replace with your actual Streamlit link)*
 
 ---
