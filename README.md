@@ -1,75 +1,66 @@
-# IRCTC 3-Statement Financial Model & Live Dashboard
+# Credit Risk Scorecard Model – Indian Lending Portfolio
 
-**Live Portfolio Project | MBA Finance | Prepared by Kartik Rao | May 2026**
+**Live Portfolio Project | MBA Finance | Prepared by Kartik Rao | April 2026**
 
 ---
 
 ## Project Overview
 
-Built a fully integrated **3-statement financial model** for **IRCTC** (Indian Railway Catering and Tourism Corporation) with detailed 5-year forecasts. The model covers three key business segments: **Ticketing**, **Catering**, and **Tourism**.
+Developed a complete **Credit Risk Scorecard Model** to evaluate and classify Indian borrower profiles based on their risk level. The model helps in making lending decisions by assigning a credit score and suggesting appropriate interest rates using **risk-based pricing**.
 
-Developed an **interactive live dashboard** using Power BI and Streamlit to visualize financial performance, segment-wise trends, and scenario outcomes.
+The project processes **80 realistic Indian borrower profiles** and provides a transparent, data-driven approach to credit risk assessment.
 
 ---
 
 ## Key Highlights
 
-- Fully linked **Income Statement, Balance Sheet, and Cash Flow Statement**
-- **Segment-level revenue forecasting** (Ticketing, Catering & Tourism)
-- **5-year financial projections** (FY26E – FY30E)
-- **Scenario Analysis** (Base Case, Bull Case, Bear Case)
-- **Sensitivity Analysis** on growth rates and EBITDA margins
-- **Interactive Dashboard** with KPI cards, trend charts, and filters
-- Clear **investment insights** on segment profitability and growth drivers
+- Built a **0–100 Credit Scoring Model** using four key factors:
+  - Monthly Income
+  - Debt-to-Income (DTI) Ratio
+  - Credit History
+  - Employment Type (Salaried / Self-Employed)
+- Implemented **Risk-Based Pricing** (Interest rates from 9.75% to 15.5%)
+- Performed **Scenario Testing**:
+  - 20% Income Drop
+  - 30% EMI Increase
+- Created an **Interactive Live Dashboard** showing:
+  - Risk Distribution
+  - Income vs Credit Score Analysis
+  - Approval & Rejection KPIs
+- Identified key risk drivers in Indian lending context
 
 ---
 
 ## Tools & Technologies Used
 
-- **Microsoft Excel** – Advanced Financial Modeling & Forecasting
-- **Power BI** – Professional Dashboard & Data Visualization
-- **Python + Streamlit** – Live Interactive Dashboard
-- **Plotly** – Dynamic Charts and Graphs
+- **Microsoft Excel** – Scoring Model, Calculations & Scenario Analysis
+- **Power BI** – Professional Dashboard & Visualization
+- **Python + Streamlit** – Live Interactive Web Dashboard
+- **Plotly** – Dynamic and Interactive Charts
 
 ---
 
 ## Live Dashboard
 
 🔗 **Live Dashboard Link**: [Click Here](https://your-link.streamlit.app)  
-*(Replace with your actual Streamlit link after deployment)*
+*(Replace with your actual Streamlit link)*
 
 ---
 
 ## Project Deliverables
 
-| Deliverable                    | Description                              |
-|--------------------------------|------------------------------------------|
-| Excel Financial Model          | Fully integrated 3-statement model       |
-| Power BI Dashboard             | Interactive KPI tracking & visualizations|
-| Live Streamlit Dashboard       | Real-time interactive web dashboard      |
-| Project Report (PDF)           | Detailed documentation & insights        |
-| GitHub Repository              | Complete code, model & documentation     |
+| Deliverable                  | Description                                      |
+|-----------------------------|--------------------------------------------------|
+| Excel Risk Model            | Complete scoring, decision engine & scenarios    |
+| Live Streamlit Dashboard    | Interactive risk assessment tool                 |
+| Power BI Dashboard          | Visual risk distribution and KPI tracking        |
+| Project Report (PDF)        | Full documentation with insights                 |
+| GitHub Repository           | Complete code, model and documentation           |
 
 ---
 
 ## Key Insights
 
-- **Ticketing** remains the **profit engine** despite contributing lower revenue share.
-- **Tourism** segment shows the **highest growth potential**.
-- Even in the Bear case, IRCTC maintains healthy profitability and positive cash flow.
-- Margin expansion and cost control are critical for long-term value creation.
-
----
-
-## Skills Demonstrated
-
-- Financial Modeling & Forecasting
-- Scenario & Sensitivity Analysis
-- Dashboard Development (Power BI + Streamlit)
-- Data Visualization
-- Business & Investment Analysis
-- Advanced Excel
-
----
-
-## How to Run the Live
+- **DTI Ratio above 35%** and **Poor Credit History** are the strongest predictors of high risk and rejection in Indian lending.
+- A **20% drop in income** can push many Medium Risk borrowers into the High Risk category.
+- **Salaried applicants** generally show lower risk compared to Self-Employed
